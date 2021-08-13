@@ -10,10 +10,10 @@ import (
 
 //Interface create
 type Clog interface {
-	Update(fileName string, name string, id int)
-	Delete(fileName string, id int, IP net.IP)
-	Endpoint(fileName string, id int, path string)
-	Warning(fileName string, id int, name string, IP net.IP)
+	Update(time string, fileName string, name string, id int)
+	Delete(time string, fileName string, id int, IP net.IP)
+	Endpoint(time string, fileName string, id int, path string)
+	Warning(time string, fileName string, id int, name string, IP net.IP)
 }
 
 // structe for custom loger "a vale can be more than one type"
@@ -23,32 +23,33 @@ type LogService struct {
 
 //Method for loger
 
-func (Ls *LogService) Update(name string, id int) {
+func (Ls *LogService) Update(Ntime string, name string, id int) {
 	// conver int to string , i can also use id interface type: it's take all type of value
 	ID := strconv.Itoa(id)
-	data := "\n Type : (Update)" + "userId : {" + ID + "}, Name : [" + name + "] : `upadate data.'"
+
+	data := "\n Type : (Update)" + " Date & time : [" + Ntime + "] userId : {" + ID + "}, Name : [" + name + "] : `upadate data.'"
 	//get file name using getfile function
 	Getfilename := Ls.getfile()
 	//wrrite date by user given it coverted into string
 	Getfilename.WriteString(data)
 
 }
-func (Ls *LogService) Delete(id int, IP net.IP) {
+func (Ls *LogService) Delete(Ntime string, id int, IP net.IP) {
 	ID := strconv.Itoa(id)
-	data := "\n Type : (Delete)" + " userID : {" + ID + "} " + "IP : {" + IP.String() + "}: `Delete data By Id`."
+	data := "\n Type : (Delete)" + "Time & Date : [" + Ntime + "] userID : {" + ID + "} " + "IP : {" + IP.String() + "}: `Delete data By Id`."
 	Getfilename := Ls.getfile()
 	Getfilename.WriteString(data)
 
 }
-func (Ls *LogService) Endpoint(id int, path string) {
+func (Ls *LogService) Endpoint(Ntime string, id int, path string) {
 	ID := strconv.Itoa(id)
-	data := "\n Type : (Endpoint)" + " userID : {" + ID + "} " + "Endpoint : {" + path + "}: ``."
+	data := "\n Type : (Endpoint) " + "Time & Date : [" + Ntime + "] userID : {" + ID + "} " + "Endpoint : {" + path + "}: ``."
 	Getfilename := Ls.getfile()
 	Getfilename.WriteString(data)
 }
-func (Ls *LogService) Warning(id int, name string, IP net.IP) {
+func (Ls *LogService) Warning(Ntime string, id int, name string, IP net.IP) {
 	ID := strconv.Itoa(id)
-	data := "\n Type : (Warning)" + " userID : {" + ID + "} " + "IP : {" + IP.String() + "}: `Something worng`."
+	data := "\n Type : (Warning) " + "Time & Date : [" + Ntime + "] userID : {" + ID + "} " + "IP : {" + IP.String() + "}: `Something worng`."
 	Getfilename := Ls.getfile()
 	Getfilename.WriteString(data)
 
