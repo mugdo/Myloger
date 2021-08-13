@@ -1,0 +1,5 @@
+
+ Type : (Delete) userID : {1} IP : {192.168.0.102}: `Delete data By Id`.
+ Type : (Update)userId : {4}, Name : [John] : `upadate data.'
+ Type : (Warning) userID : {3} IP : {192.168.0.102}: `Something worng`.
+ Type : (Endpoint) userID : {3} Endpoint : {log/mugdo/github.gom}: ``.
