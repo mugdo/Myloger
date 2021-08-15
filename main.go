@@ -9,6 +9,10 @@ import (
 	"github.com/mugdo/Mylogr/customlog"
 )
 
+const dot = "."
+const hypen = "-"
+const and = "&"
+
 func getUserIP() net.IP {
 	conn, err := net.Dial("udp", "8.8.8.8:80")
 	if err != nil {
@@ -40,8 +44,8 @@ func main() {
 }
 func getTime() string {
 	today := time.Now()
-	date := strconv.Itoa(today.Year()) + "-" + strconv.Itoa(int(today.Month())) + "-" + strconv.Itoa(today.Day())
-	date += " & " + strconv.Itoa(today.Hour()) + "." + strconv.Itoa(today.Minute()) + "." + strconv.Itoa(today.Second())
+	date := strconv.Itoa(today.Year()) + hypen + strconv.Itoa(int(today.Month())) + hypen + strconv.Itoa(today.Day())
+	date += " " + and + " " + strconv.Itoa(today.Hour()) + dot + strconv.Itoa(today.Minute()) + dot + strconv.Itoa(today.Second())
 
 	return date
 }

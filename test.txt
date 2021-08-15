@@ -1,9 +1,37 @@
 
- Type : (Delete)Time & Date : [2021-8-13 & 18.35.14] userID : {1} IP : {192.168.0.102}: `Delete data By Id`.
- Type : (Update) Date & time : [2021-8-13 & 18.35.14] userId : {4}, Name : [John] : `upadate data.'
- Type : (Warning) Time & Date : [2021-8-13 & 18.35.14] userID : {3} IP : {192.168.0.102}: `Something worng`.
- Type : (Endpoint) Time & Date : [2021-8-13 & 18.35.14] userID : {3} Endpoint : {log/mugdo/github.gom}: ``.
- Type : (Delete)Time & Date : [2021-8-13 & 18.35.28] userID : {1} IP : {192.168.0.102}: `Delete data By Id`.
- Type : (Update) Date & time : [2021-8-13 & 18.35.28] userId : {4}, Name : [John] : `upadate data.'
- Type : (Warning) Time & Date : [2021-8-13 & 18.35.28] userID : {3} IP : {192.168.0.102}: `Something worng`.
- Type : (Endpoint) Time & Date : [2021-8-13 & 18.35.28] userID : {3} Endpoint : {log/mugdo/github.gom}: ``.
+ Type : (Delete)Time & Date : [2021-8-15 & 20.12.11] userID : {1} IP : {192.168.0.105}: `Delete data By Id`.
+ Type : (Update) Date & time : [2021-8-15 & 20.12.11] userId : {4}, Name : [John] : `upadate data.'
+ Type : (Warning) Time & Date : [2021-8-15 & 20.12.11] userID : {3} IP : {192.168.0.105}: `Something worng`.
+ Type : (Endpoint) Time & Date : [2021-8-15 & 20.12.11] userID : {3} Endpoint : {log/mugdo/github.gom}: ``.
+ Type : (Delete)Time & Date : [2021-8-15 & 20.12.16] userID : {1} IP : {192.168.0.105}: `Delete data By Id`.
+ Type : (Update) Date & time : [2021-8-15 & 20.12.16] userId : {4}, Name : [John] : `upadate data.'
+ Type : (Warning) Time & Date : [2021-8-15 & 20.12.16] userID : {3} IP : {192.168.0.105}: `Something worng`.
+ Type : (Endpoint) Time & Date : [2021-8-15 & 20.12.16] userID : {3} Endpoint : {log/mugdo/github.gom}: ``.
+ Type : (Delete)Time & Date : [2021-8-15 & 20.12.19] userID : {1} IP : {192.168.0.105}: `Delete data By Id`.
+ Type : (Update) Date & time : [2021-8-15 & 20.12.19] userId : {4}, Name : [John] : `upadate data.'
+ Type : (Warning) Time & Date : [2021-8-15 & 20.12.19] userID : {3} IP : {192.168.0.105}: `Something worng`.
+ Type : (Endpoint) Time & Date : [2021-8-15 & 20.12.19] userID : {3} Endpoint : {log/mugdo/github.gom}: ``.
+ Type : (Delete)Time & Date : [2021-8-15 & 20.17.13] userID : {1} IP : {192.168.0.105}: `Delete data By Id`.
+ Type : (Update) Date & time : [2021-8-15 & 20.17.13] userId : {4}, Name : [John] : `upadate data.'
+ Type : (Warning) Time & Date : [2021-8-15 & 20.17.13] userID : {3} IP : {192.168.0.105}: `Something worng`.
+ Type : (Endpoint) Time & Date : [2021-8-15 & 20.17.13] userID : {3} Endpoint : {log/mugdo/github.gom}: ``.
+ Type : (Delete)Time & Date : [2021-8-15 & 20.17.20] userID : {1} IP : {192.168.0.105}: `Delete data By Id`.
+ Type : (Update) Date & time : [2021-8-15 & 20.17.20] userId : {4}, Name : [John] : `upadate data.'
+ Type : (Warning) Time & Date : [2021-8-15 & 20.17.20] userID : {3} IP : {192.168.0.105}: `Something worng`.
+ Type : (Endpoint) Time & Date : [2021-8-15 & 20.17.20] userID : {3} Endpoint : {log/mugdo/github.gom}: ``.
+ Type : (Delete)Time & Date : [2021-8-15 & 20.18.8] userID : {1} IP : {192.168.0.105}: `Delete data By Id`.
+ Type : (Update) Date & time : [2021-8-15 & 20.18.8] userId : {4}, Name : [John] : `upadate data.'
+ Type : (Warning) Time & Date : [2021-8-15 & 20.18.8] userID : {3} IP : {192.168.0.105}: `Something worng`.
+ Type : (Endpoint) Time & Date : [2021-8-15 & 20.18.8] userID : {3} Endpoint : {log/mugdo/github.gom}: ``.
+ Type : (Delete)Time & Date : [2021-8-15 & 20.18.18] userID : {1} IP : {192.168.0.105}: `Delete data By Id`.
+ Type : (Update) Date & time : [2021-8-15 & 20.18.18] userId : {4}, Name : [John] : `upadate data.'
+ Type : (Warning) Time & Date : [2021-8-15 & 20.18.18] userID : {3} IP : {192.168.0.105}: `Something worng`.
+ Type : (Endpoint) Time & Date : [2021-8-15 & 20.18.18] userID : {3} Endpoint : {log/mugdo/github.gom}: ``.
+ Type : (Delete)Time & Date : [2021-8-15&20.19.41] userID : {1} IP : {192.168.0.105}: `Delete data By Id`.
+ Type : (Update) Date & time : [2021-8-15&20.19.41] userId : {4}, Name : [John] : `upadate data.'
+ Type : (Warning) Time & Date : [2021-8-15&20.19.41] userID : {3} IP : {192.168.0.105}: `Something worng`.
+ Type : (Endpoint) Time & Date : [2021-8-15&20.19.41] userID : {3} Endpoint : {log/mugdo/github.gom}: ``.
+ Type : (Delete)Time & Date : [2021-8-15&20.19.46] userID : {1} IP : {192.168.0.105}: `Delete data By Id`.
+ Type : (Update) Date & time : [2021-8-15&20.19.46] userId : {4}, Name : [John] : `upadate data.'
+ Type : (Warning) Time & Date : [2021-8-15&20.19.46] userID : {3} IP : {192.168.0.105}: `Something worng`.
+ Type : (Endpoint) Time & Date : [2021-8-15&20.19.46] userID : {3} Endpoint : {log/mugdo/github.gom}: ``.
